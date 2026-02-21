@@ -274,6 +274,12 @@ export default function CalculatorScreen() {
         <Text style={styles.primaryButtonText}>Calculate</Text>
       </Pressable>
 
+      <Link href="/resources" asChild>
+        <Pressable style={styles.secondaryButton}>
+          <Text style={styles.secondaryButtonText}>Resources and Safety</Text>
+        </Pressable>
+      </Link>
+
       <Link href="/tip" asChild>
         <Pressable style={styles.secondaryButton}>
           <Text style={styles.secondaryButtonText}>Support / Tip the developer</Text>

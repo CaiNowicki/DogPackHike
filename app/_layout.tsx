@@ -11,6 +11,7 @@ export default function RootLayout() {
       <Stack.Screen name="results" options={{ title: 'Results' }} />
       <Stack.Screen name="profiles" options={{ title: 'Dog Profiles' }} />
       <Stack.Screen name="tip" options={{ title: 'Support' }} />
+      <Stack.Screen name="resources" options={{ title: 'Resources & Safety' }} />
     </Stack>
   );
 }
