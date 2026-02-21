@@ -22,10 +22,6 @@ export default function TipScreen() {
         <Text style={styles.primaryButtonText}>Share the app</Text>
       </Pressable>
 
-      <Pressable style={styles.secondaryButton} onPress={() => router.push('/resources')}>
-        <Text style={styles.secondaryButtonText}>Resources and Safety</Text>
-      </Pressable>
-
       <Pressable style={styles.secondaryButton} onPress={() => router.back()}>
         <Text style={styles.secondaryButtonText}>Back</Text>
       </Pressable>
